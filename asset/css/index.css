@@ -1,0 +1,352 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Dosis", sans-serif;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+  }
+
+.logo img {
+    float: left;
+    margin-left: 130px;
+    width: 30%;
+    border: 1px solid green;
+}
+
+.nav-area {
+    float: right;
+}
+
+.nav-area ul {
+    list-style: none;
+    margin: 0%;
+}
+
+.nav-area ul ul {
+    position: absolute;
+    padding: 0%;
+    text-align: center;
+    min-width: 20%;
+    display: none;
+}
+
+.nav-area > ul > li {
+    float: left;
+    padding: 10px;
+}
+
+
+.nav-area ul ul ul {
+    color: blue;
+    
+    top: 0%;
+    left: 100%;
+}
+
+.nav-area ul ul li {
+    border: 1px solid blue;
+    position: relative;
+    padding: 5px;
+}
+
+.nav-area ul li:hover > ul {
+    display: block;
+    transition: 1s;
+}
+
+/* .nav-area {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    border: 1px solid black;
+    height: 80px;
+    background-color: #fff;
+    width: 100%;
+    text-align: right;
+    padding: 1.5%;
+    padding-right: 10%;
+    transition: all 0.9s ease-in-out;
+    position: fixed;
+    margin-right: 100px;
+} */
+.nav-area .logo{
+    width: 30%;
+}
+.navbar{
+    border: 1px solid blue;
+    height: 30px;
+    width: 70%;
+    padding: 0 0 0 150px;
+}
+.navbar ul{
+    display: flex;
+    padding: 0 0 0 100px;
+    margin-left: 30px;
+}
+.navbar ul li {
+  
+    float: right;
+}
+.navbar ul li a {
+
+}
+.nav-area a {
+    text-decoration: none;
+    /* text-transform: capitalize; */
+    margin-right: 20px;
+    font-size: 15px;
+    color: #444444;
+    font-family: "Dosis", sans-serif;
+    /* border: 1px solid bl ue; */
+    /* text-align: right; */
+    float: right;
+    
+}
+.main-nav {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    /* margin: 10px; */
+    /* border: 1px solid black; */
+    height: 80px;
+    background-color: #fff;
+    width: 100%;
+    /* text-align: right; */
+    padding: 1.5%;
+    padding-right: 10%;
+    transition: all 0.9s ease-in-out;
+    position: fixed;
+    /* margin-right: 100px; */
+}
+.main-nav a {
+    margin-right: 20px;
+    font-size: 15px;
+    text-decoration: solid;
+    text-decoration: none;
+    color: #444444;
+    font-family: "Dosis", sans-serif;
+}
+.main-nav a:hover {
+    color: #76c7ed;
+
+}
+
+.main-head--er {
+    /* border: 1px solid forestgreen; */
+    height: 650px;
+}
+
+.inner--content-head--er {
+    /* border: 1px solid blue; */
+    margin-left: -100px;
+    margin-top: 0px;
+    /* width: 42%; */
+    height: 750px;
+    display: flex;
+}
+
+.inner-text-content {
+    margin: 50px;
+    margin-left: -120px;
+    margin-top: 150px;
+    margin-left: 250px;
+    /* border: 1px solid red; */
+    height: 70%;
+    width: 40%;
+}
+
+.inner-text-content h1 {
+    font-size: 35px;
+    font-family: monospace 
+    cursive;
+    color: #444444;
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+
+.inner-text-content p{
+    font-size: larger;
+}
+
+.inner-text-content button {
+    margin-top: 30px;
+    height: 40px;
+    width: 130px;
+    background-color: #76c7ed;
+    border: none;
+    border-radius: 2px;
+
+}
+.inner-text-content button:hover {
+    background-color: #444444;
+
+}
+.inner-text-content a {
+    margin-top: 50px;
+    text-decoration: none;
+    color: #fff;
+    font-family: monospace, sans-serif
+    cursive;
+}
+
+.inner-image-content {
+    /* border: 1px solid yellow; */
+    height: 100%;
+    width: 50%;
+    
+
+}
+
+.inner-image-content img {
+    /* border: 1px solid purple; */
+    background-position: center;
+    height: 55%;
+    width: 80%;
+    margin-top: 150px;
+    margin-left: 20px;
+}
+
+.main--section-container {
+    height: 700px;
+    /* border: 1px solid purple; */
+    display: flex;
+}
+
+.main-inner-section-container {
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 55%;
+
+}
+
+.main-inner-section-container h1{
+    margin-top: 50px;
+    font-size: 29px;
+}
+
+.main-inner-section-container p{
+    margin-top: 30px;
+}
+.main-inner-image-section-container{
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 50%;
+}
+.main-inner-image-section-container img {
+    height: 90%;
+    width: 75%;
+    /* border: 1px solid yellow; */
+    margin-left: 150px;
+}
+
+.main-inner-icon-container {
+    /* border: 1px solid green; */
+    height: 125px;
+    width: 100%;
+    display: flex;
+}
+
+.inner-icon-container {
+    height: 100%;
+    /* padding-left: -500px; */
+    padding-top: 20px;
+    width: 10%;
+    /* border: 1px solid blue; */
+    /* margin: 40px; */
+    /* border-radius: 70%; */
+}
+
+.inner-icon-container i  {
+   font-size: 30px;
+   /* text-align: center; */
+   color: #76c7ed;
+   border: 1px solid #76c7ed;
+   height: 70px;
+   width: 70px;
+   padding: 20px;
+   border-radius: 70%;
+}
+
+
+.inner-text-container {
+    /* border: 1px solid red; */
+    width: 85%;
+}
+.inner-text-container h2 {
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.inner-text-container p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+.achieve-container {
+    border: 1px solid blue;
+    height: 300px;
+    width: 100%;
+    background: url(../img/counts-bg.jpg) center center no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    position: relative;
+    /* opacity: 30%; */
+    filter: gra;
+
+    /* overflow: hidden; */
+}
+
+
+.clients-container {
+    border: 1px solid green;
+    height: 500px;
+}
+
+.clients-inner-container {
+    height: 150px;
+    /* border: 0.2px solid #444444; */
+    margin: 100px;
+    margin-top: 50px;
+    display: flex;
+}
+.clients-inner-text-container {
+    border: 0.1px solid #444444;
+    height: 100%;
+    width: 25%;
+    /* border-bottom: none; */
+}
+
+
+.clients-inner-text-container {
+    border: 0.1px solid #444444;
+    height: 100%;
+    width: 25%;
+    /* border-bottom: none; */
+}
+
+.clients-inner-text-container:hover img{
+    height: 30%;
+    margin: 50px;
+    margin-left: 100px;
+    size: 50px;
+    height: 50px;
+    
+    filter: grayscale(10%);
+    
+    
+}
+.clients-inner-container1 {
+    height: 150px;
+    /* border: 0.2px solid #444444; */
+    margin: 100px;
+    margin-top: -100px;
+    display: flex;
+}
